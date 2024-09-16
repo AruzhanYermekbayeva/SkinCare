@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask a Question</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="home.html">BACK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ask-question">
+            <h1>Ask a Question</h1>
+            <form action="submit_form.php" method="post"></form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="question">Your Question:</label>
+                <textarea id="question" name="question" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <p>If you prefer, you can also contact us directly at: aruzhanyermekbayeva945@gmail.com</p>
+        </section>
+    </main>
